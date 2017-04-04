@@ -1,0 +1,6 @@
+<!--logs.wxml-->
+<view class="container log-list">
+    <view>{{newField.text}}</view>
+    <image src="{{imgUrl}}"></image>
+    <button bindtap="changeImgUrl"> 打开礼物吧~ </button>
+</view>
